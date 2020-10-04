@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font=family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+.main_wrapper {
+	margin: 0 auto;
+	width: 900px;
+}
+.block1 h1 {
+	background:url(../img/5.png) left no-repeat, url(../img/field2.jpg)0 0/100% 100% no-repeat;
+	border-radius: 10px;
+	box-shadow: 0 0 10px;
+	color: black;
+	padding: 20px 0px 50px 40px
+}
+	.text {
+	background-color: powderblue;
+	border-radius: 12px;
+	box-shadow: 0 0 10px;
+	padding: 0 0 50px 0;
+	margin-top: 5px;
+}
+	.text li {
+	font-size: 20px;
+	margin: 0 0 -20px 0;
+	background:url(../img/icon_info5.png) left no-repeat;
+	padding: 25px 0px 35px 60px;
+}
+	.block2 {
+		background-color: goldenrod;
+		border-radius: 5px;
+		box-shadow: 0 0 10px;
+		text-align: center;
+		margin-top: 5px;
+	}
+	.list {
+		background-color: rgb(194, 163, 163);
+		border-radius: 10px;
+		box-shadow: 0 0 10px;
+		height: 150px;
+	}
+	.list li {
+		font-size: 17px;
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+	.main_menu {
+		border-radius: 10px;
+		width: 250px;
+		height: 400px;
+		background: hotpink;
+		text-align: right;
+		float: right;
+		box-shadow: 0 0 10px;
+		margin-top: 5px;
+	}
+	.main_menu b {
+		font-size: 23px;
+		text-align: center;
+		
+	}
+	.main_menu li {
+		font-size: 20px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.foto {
+		border-radius: 10px;
+		width: 645px;
+		height: 400px;
+		margin-top: 5px;
+		box-shadow: 0 0 10px;
+	}
+	.main_block h3 {
+		background-color: goldenrod;
+		border-radius: 5px;
+		box-shadow: 0 0 10px;
+		text-align: center;
+		margin-top: 5px;
+}
+.list2 {
+	background-color: rgb(194, 163, 163);
+	border-radius: 10px;
+	height: 110px;
+	box-shadow: 0 0 10px;
+}
+	.list2 li {
+		font-size: 17px;
+		margin-left: 20px;
+		margin-top: 5px;
+		padding: 2px;
+}
+.footer {
+	height: 80px;
+	background-color:rgb(173, 206, 200);
+	border-radius: 10px;
+	margin-top: 5px;
+	box-shadow: 0 0 10px;
+}
+.contacts h4 {
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+.contacts p {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+.copirayt p {
+	margin-top: 5px;
+}
